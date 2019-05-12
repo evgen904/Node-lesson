@@ -1,8 +1,6 @@
-//var Car = require('./car').CarClass;
+//var lodash = require('./node_modules/lodash/lodash');
+var _ = require('lodash');
+require('./a/a');
 
-require('./car');
+console.log(_.sum([4,6]));
 
-
-//var bmw = new Car('BMW');
-var bmw = new global.Car('BMW');
-bmw.logName();
