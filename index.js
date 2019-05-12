@@ -1,3 +1,8 @@
-var text = "Hello World!";
+//var Car = require('./car').CarClass;
 
-console.log(text);
+require('./car');
+
+
+//var bmw = new Car('BMW');
+var bmw = new global.Car('BMW');
+bmw.logName();
